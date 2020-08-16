@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="Custom App UI">
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="THEMES_ON"
+            app:summaryOff="Select to Activate Custom Themes"
+            app:summaryOn="Restart App to Implement "
+            app:title="Themes Active" />
+        <ListPreference
+            app:defaultValue="2"
+            app:dependency="THEMES_ON"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme"
+            app:iconSpaceReserved="false"
+            app:key="THEME"
+            app:title="Themes"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="About">
+        <Preference
+            app:iconSpaceReserved="false"
+            app:selectable="false"
+            app:summary="We are a team of like minded people specialized in various parts of tech, including, but not limited to: Android Development, Web, Cloud Services, Artificial Intelligence and Robotics. Creating new products based off Quick, responsive and trendy practices. Glad to help in any way" />
+        <Preference
+            android:title="Version"
+            android:summary="1.0"
+            app:iconSpaceReserved="false" />
+        <Preference
+            android:title="Send Feedback"
+            android:key="key_send_feedback"
+            android:summary="Got any queries? We are happy to help!"
+            app:iconSpaceReserved="false">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.androidhive.info/privacy-policy/" />
+        </Preference>
+        <Preference
+            android:title="FAQ"
+            android:summary="View frequently asked questions"
+            app:iconSpaceReserved="false" />
+        <Preference
+            android:title="Disclaimer"
+            android:summary="In no event shall TA be responsible for any damages arising out of or relating to the use of this App." app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

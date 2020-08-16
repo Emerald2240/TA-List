@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TA List</string>
+    <string name="activity_new_list_tutorial">-Click the \"ADD\" button to add a new item to the list\n-Click the Document Icon Button to save the list\n-Touch your current list name to edit\n-Touch added list item to delete\n-or hold to reference edit</string>
+    <string name="activity_new_list_name_edit_box_hint">Enter Item Name</string>
+    <string name="activity_new_list_remark_edit_box_hint">Enter Item Remark(Optional)</string>
+    <string name="activity_new_list_price_edit_box_hint">Enter Item Price(Optional)</string>
+    <string name="activity_new_list_default_list_name">List</string>
+    <string name="activity_new_list_save_button_tag">ADD</string>
+    <string name="activity_new_list_">TA List</string>
+    <string name="activity_worklist_default_list_name">List Name</string>
+    <string name="appo_name">TA List</string>
+    <string name="app_pname">TA List</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

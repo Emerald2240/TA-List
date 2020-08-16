@@ -1,0 +1,81 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="sort_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="theme">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="text_color">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="sort_a_or_d">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="sort_values_entries">
+        <item>Name</item>
+        <item>Date Created</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Indigo</item>
+        <item>Cyan</item>
+        <item>Brown</item>
+        <item>Grey</item>
+    </string-array>
+    <string-array name="text_color_entries">
+        <item>White</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Indigo</item>
+        <item>Cyan</item>
+        <item>Brown</item>
+        <item>Grey</item>
+    </string-array>
+    <string-array name="sort_a_or_d_entries">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+</resources>

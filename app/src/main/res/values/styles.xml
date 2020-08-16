@@ -1,0 +1,115 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:alertDialogTheme">@style/MyDarkAlertDialogTheme</item>
+        <item name="textColorAlertDialogListItem">@color/colorPrimaryBlack</item>
+    </style>
+
+    <style name="MyDarkAlertDialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryBlack</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlack</item>
+        <item name="colorAccent">@color/colorAccentBlack</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.AppCompat.NoActionBar</item>
+        <item name="textColorAlertDialogListItem">@color/colorAccentBlack</item>
+    </style>
+
+    <style name="AppThemeRed" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkRed</item>
+        <item name="colorAccent">@color/colorAccentRed</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.AppCompat.NoActionBar</item>
+        <item name="textColorAlertDialogListItem">@color/colorAccentRed</item>
+    </style>
+
+    <style name="AppThemeOrange" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryOrange</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkOrange</item>
+        <item name="colorAccent">@color/colorAccentOrange</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.AppCompat.NoActionBar</item>
+        <item name="textColorAlertDialogListItem">@color/colorAccentOrange</item>
+    </style>
+
+    <style name="AppThemeYellow" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryYellow</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkYellow</item>
+        <item name="colorAccent">@color/colorAccentYellow</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.AppCompat.NoActionBar</item>
+        <item name="textColorAlertDialogListItem">@color/colorAccentYellow</item>
+    </style>
+
+    <style name="AppThemeGreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/colorAccentGreen</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.AppCompat.NoActionBar</item>
+        <item name="textColorAlertDialogListItem">@color/colorAccentGreen</item>
+
+    </style>
+
+    <style name="AppThemeBlue" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlue</item>
+        <item name="colorAccent">@color/colorAccentBlue</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.AppCompat.NoActionBar</item>
+        <item name="textColorAlertDialogListItem">@color/colorAccentBlue</item>
+
+    </style>
+
+    <style name="AppThemeIndigo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryIndigo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkIndigo</item>
+        <item name="colorAccent">@color/colorAccentIndigo</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.AppCompat.NoActionBar</item>
+        <item name="textColorAlertDialogListItem">@color/colorAccentIndigo</item>
+
+    </style>
+
+    <style name="AppThemeCyan" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryCyan</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkCyan</item>
+        <item name="colorAccent">@color/colorAccentCyan</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.AppCompat.NoActionBar</item>
+        <item name="textColorAlertDialogListItem">@color/colorAccentCyan</item>
+
+    </style>
+
+    <style name="AppThemeBrown" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryBrown</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBrown</item>
+        <item name="colorAccent">@color/colorAccentBrown</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.AppCompat.NoActionBar</item>
+        <item name="textColorAlertDialogListItem">@color/colorAccentBrown</item>
+
+    </style>
+
+    <style name="AppThemeGrey" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryGrey</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGrey</item>
+        <item name="colorAccent">@color/colorAccentGrey</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.AppCompat.NoActionBar</item>
+        <item name="textColorAlertDialogListItem">@color/colorAccentGrey</item>
+
+    </style>
+
+</resources>
